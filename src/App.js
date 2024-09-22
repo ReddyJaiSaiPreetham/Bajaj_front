@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css'; // For styling
 
-const BACKEND_URL = 'http://localhost:3000/bfhl';
+const BACKEND_URL = 'https://bajaj-lnsv.vercel.app/';
 
 function App() {
   const [input, setInput] = useState('');
